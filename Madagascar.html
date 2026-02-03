@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurant Africain Virtuel - Madagascar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🍽️ Restaurant Africain Virtuel</h1>
+    <h2>Spécialités de Madagascar 🇲🇬</h2>
+    <a href="menu.html" class="bouton-retour">⬅ Retour au menu</a>
+</header>
+
+<main>
+
+    <!-- RECETTE 1 -->
+    <section class="recette">
+        <h2>🍚 Romazava</h2>
+        <img src="image/Romazava.jpg" alt="Romazava" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Bouillon traditionnel malgache à base de viande et de brèdes, servi avec du riz blanc.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>500 g de viande de bœuf ou zébu</li>
+                <li>1 botte de brèdes ou épinards</li>
+                <li>1 oignon</li>
+                <li>2 tomates</li>
+                <li>Ail, gingembre</li>
+                <li>Sel, poivre</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Couper la viande en morceaux.</li>
+                <li>Faire revenir oignon, ail et gingembre.</li>
+                <li>Ajouter la viande et les tomates.</li>
+                <li>Couvrir d’eau et cuire 40 minutes.</li>
+                <li>Ajouter les brèdes et cuire encore 10 minutes.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> 1 heure</p>
+        </div>
+    </section>
+
+    <!-- RECETTE 2 -->
+    <section class="recette">
+        <h2>🥥 Ravitoto</h2>
+        <img src="image/Ravitoto.jpg" alt="Ravitoto" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Feuilles de manioc pilées mijotées longuement avec du porc.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>Feuilles de manioc pilées</li>
+                <li>400 g de porc</li>
+                <li>1 oignon</li>
+                <li>Ail</li>
+                <li>Sel</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Faire revenir le porc en morceaux.</li>
+                <li>Ajouter oignon et ail.</li>
+                <li>Incorporer les feuilles de manioc.</li>
+                <li>Laisser mijoter 1 heure.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> 1h30</p>
+        </div>
+    </section>
+
+    <!-- RECETTE 3 -->
+    <section class="recette">
+        <h2>🍗 Akoho sy Voanio</h2>
+        <img src="image/Akoho sy Voanio.jpg" alt="Poulet coco malgache" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Poulet mijoté dans une sauce au lait de coco parfumée aux épices locales.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>1 poulet découpé</li>
+                <li>1 tasse de lait de coco</li>
+                <li>1 oignon</li>
+                <li>Gingembre, ail</li>
+                <li>Curcuma, sel</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Faire dorer le poulet.</li>
+                <li>Ajouter oignon, ail et gingembre.</li>
+                <li>Verser le lait de coco et les épices.</li>
+                <li>Laisser mijoter 35 minutes.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> 50 minutes</p>
+        </div>
+    </section>
+
+    <!-- RECETTE 4 -->
+    <section class="recette">
+        <h2>🥩 Kitoza</h2>
+        <img src="image/kitoza.jpg" alt="Kitoza" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Viande séchée puis grillée, spécialité très appréciée à Madagascar.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>500 g de viande</li>
+                <li>Sel</li>
+                <li>Poivre</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Couper la viande en fines lamelles.</li>
+                <li>Saler et laisser sécher plusieurs heures.</li>
+                <li>Griller au feu ou à la poêle.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> 45 minutes (+ séchage)</p>
+        </div>
+    </section>
+
+    <!-- RECETTE 5 -->
+    <section class="recette">
+        <h2>🍩 Mofo Gasy</h2>
+        <img src="image/Mofo Gasy.jpg" alt="Mofo Gasy" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Petits gâteaux malgaches à base de farine de riz, légèrement sucrés.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>2 tasses de farine de riz</li>
+                <li>1 tasse de sucre</li>
+                <li>1 tasse d’eau</li>
+                <li>Levure</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Mélanger tous les ingrédients.</li>
+                <li>Laisser reposer 1 heure.</li>
+                <li>Cuire dans des moules spéciaux ou à la poêle.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> 1h30</p>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Restaurant Africain Virtuel</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

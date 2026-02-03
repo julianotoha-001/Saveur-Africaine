@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurant Africain Virtuel - Zimbabwe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🍽️ Restaurant Africain Virtuel</h1>
+    <h2>Spécialités du Zimbabwe 🇿🇼</h2>
+    <a href="menu.html" class="bouton-retour">⬅ Retour au menu</a>
+</header>
+
+<main>
+
+    <!-- RECETTE 1 -->
+    <section class="recette">
+        <h2>🍚 Sadza</h2>
+        <img src="image/Sadza.jpg" alt="Sadza" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Le Sadza est l’aliment de base au Zimbabwe. Cette pâte épaisse de farine de maïs accompagne viandes, légumes et sauces.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>2 tasses de farine de maïs</li>
+                <li>4 tasses d’eau</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Faire bouillir l’eau.</li>
+                <li>Ajouter la farine progressivement en remuant.</li>
+                <li>Cuire jusqu’à obtenir une pâte ferme et lisse.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> 20 minutes</p>
+        </div>
+    </section>
+
+    <!-- RECETTE 2 -->
+    <section class="recette">
+        <h2>🍖 Nyama ne Dovi</h2>
+        <img src="image/Nyama ne Dovi.jpg" alt="Nyama ne Dovi" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Ragoût de viande mijoté dans une sauce crémeuse à base de beurre d’arachide, très populaire en Afrique australe.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>500 g de bœuf</li>
+                <li>3 cuillères de pâte d’arachide</li>
+                <li>2 tomates</li>
+                <li>1 oignon</li>
+                <li>Ail, sel</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Faire revenir la viande avec l’oignon.</li>
+                <li>Ajouter tomates et ail.</li>
+                <li>Incorporer la pâte d’arachide diluée.</li>
+                <li>Laisser mijoter 40 minutes.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> 1 heure</p>
+        </div>
+    </section>
+
+    <!-- RECETTE 3 -->
+    <section class="recette">
+        <h2>🍃 Muriwo Unedovi</h2>
+        <img src="image/Muriwo Unedovi.jpg" alt="Muriwo Unedovi" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Légumes verts cuits avec une sauce à l’arachide, souvent servis avec le sadza.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>Feuilles vertes (épinards ou chou)</li>
+                <li>2 cuillères de pâte d’arachide</li>
+                <li>1 oignon</li>
+                <li>Sel</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Cuire les légumes à l’eau.</li>
+                <li>Faire revenir l’oignon.</li>
+                <li>Ajouter la pâte d’arachide et mélanger aux légumes.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> 25 minutes</p>
+        </div>
+    </section>
+
+    <!-- RECETTE 4 -->
+    <section class="recette">
+        <h2>🐛 Mopane Worms</h2>
+        <img src="image/Mopane Worms.jpg" alt="Mopane Worms" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Chenilles séchées riches en protéines, cuisinées avec tomates et oignons. Plat traditionnel et nutritif.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>1 tasse de vers mopane séchés</li>
+                <li>2 tomates</li>
+                <li>1 oignon</li>
+                <li>Huile, sel</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Réhydrater les vers dans l’eau chaude.</li>
+                <li>Faire revenir oignon et tomates.</li>
+                <li>Ajouter les vers et cuire 15 minutes.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> 30 minutes</p>
+        </div>
+    </section>
+
+    <!-- RECETTE 5 -->
+    <section class="recette">
+        <h2>🍩 Maputi</h2>
+        <img src="image/Maputi.jpg" alt="Maputi" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Maïs soufflé localement préparé, souvent vendu comme snack dans les rues.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>Maïs à éclater</li>
+                <li>Sel ou sucre</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Faire chauffer les grains dans une casserole couverte.</li>
+                <li>Laisser éclater.</li>
+                <li>Assaisonner selon le goût.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> 10 minutes</p>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Restaurant Africain Virtuel</p>
+</footer>
+
+<!-- SCRIPT INTERACTIF IDENTIQUE -->
+<script src="script.js"></script>
+
+</body>
+</html>

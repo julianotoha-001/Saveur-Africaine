@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurant Africain Virtuel - Tunisie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🍽️ Restaurant Africain Virtuel</h1>
+    <h2>Spécialités de la Tunisie 🇹🇳</h2>
+    <a href="menu.html" class="bouton-retour">⬅ Retour au menu</a>
+</header>
+
+<main>
+
+    <!-- RECETTE 1 -->
+    <section class="recette">
+        <h2>🥘 Couscous Tunisien</h2>
+        <img src="couscous_tunisien.jpg" alt="Couscous tunisien" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Plat national à base de semoule, légumes mijotés et viande ou poisson, relevé d’épices et d’harissa.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>Semoule de couscous</li>
+                <li>Agneau ou poulet</li>
+                <li>Carottes, courgettes, pommes de terre</li>
+                <li>Pois chiches</li>
+                <li>Tomate concentrée</li>
+                <li>Harissa, épices</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Préparer une sauce tomate épicée avec la viande.</li>
+                <li>Ajouter les légumes et laisser mijoter.</li>
+                <li>Cuire la semoule à la vapeur.</li>
+                <li>Servir la semoule nappée de sauce et garnie de légumes.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> 1 h 30</p>
+        </div>
+    </section>
+
+    <!-- RECETTE 2 -->
+    <section class="recette">
+        <h2>🍲 Ojja Tunisienne</h2>
+        <img src="ojja.jpg" alt="Ojja tunisienne" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Plat épicé à base de tomates, poivrons et merguez ou fruits de mer, dans lequel on poche des œufs.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>Tomates</li>
+                <li>Poivrons</li>
+                <li>Merguez ou crevettes</li>
+                <li>Œufs</li>
+                <li>Ail, harissa, épices</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Préparer une sauce tomate épicée.</li>
+                <li>Ajouter la viande ou les fruits de mer.</li>
+                <li>Casser les œufs dans la sauce.</li>
+                <li>Laisser cuire doucement et servir chaud avec du pain.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> 30 minutes</p>
+        </div>
+    </section>
+
+    <!-- RECETTE 3 -->
+    <section class="recette">
+        <h2>🥙 Lablabi</h2>
+        <img src="lablabi.jpg" alt="Lablabi tunisien" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Soupe de pois chiches parfumée à l’ail, cumin et harissa, servie sur du pain avec un œuf et de l’huile d’olive.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>Pois chiches</li>
+                <li>Ail</li>
+                <li>Cumin</li>
+                <li>Harissa</li>
+                <li>Pain rassis</li>
+                <li>Œufs</li>
+                <li>Huile d’olive</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Cuire les pois chiches jusqu’à tendreté.</li>
+                <li>Préparer un bouillon avec ail, cumin et harissa.</li>
+                <li>Verser sur le pain dans un bol.</li>
+                <li>Ajouter un œuf poché et un filet d’huile d’olive.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> 1 heure</p>
+        </div>
+    </section>
+
+    <!-- RECETTE 4 -->
+    <section class="recette">
+        <h2>🥪 Fricassé Tunisien</h2>
+        <img src="fricasse.jpg" alt="Fricassé tunisien" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Petit pain frit farci de thon, œufs, pommes de terre, olives et harissa. Street food incontournable.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>Pâte à pain</li>
+                <li>Thon</li>
+                <li>Œufs durs</li>
+                <li>Pommes de terre</li>
+                <li>Olives</li>
+                <li>Harissa</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Former de petits pains et les frire.</li>
+                <li>Couper et garnir avec les ingrédients.</li>
+                <li>Ajouter de l’harissa selon le goût.</li>
+                <li>Servir chaud.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> 45 minutes</p>
+        </div>
+    </section>
+
+    <!-- RECETTE 5 -->
+    <section class="recette">
+        <h2>🍩 Bambalouni</h2>
+        <img src="bambalouni.jpg" alt="Bambalouni tunisien" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Beignet tunisien moelleux et léger, saupoudré de sucre, très populaire en bord de mer.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>Farine</li>
+                <li>Levure boulangère</li>
+                <li>Sucre</li>
+                <li>Eau tiède</li>
+                <li>Huile pour friture</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Préparer une pâte levée souple.</li>
+                <li>Laisser reposer jusqu’à doublement.</li>
+                <li>Former des anneaux et frire.</li>
+                <li>Saupoudrer de sucre et servir chaud.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> 2 heures</p>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Restaurant Africain Virtuel</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

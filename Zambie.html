@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurant Africain Virtuel - Zambie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🍽️ Restaurant Africain Virtuel</h1>
+    <h2>Spécialités de la Zambie 🇿🇲</h2>
+    <a href="menu.html" class="bouton-retour">⬅ Retour au menu</a>
+</header>
+
+<main>
+
+    <!-- RECETTE 1 -->
+    <section class="recette">
+        <h2>🥣 Nshima</h2>
+        <img src="image/Nshima.jpg" alt="Nshima" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Aliment de base en Zambie, pâte épaisse de farine de maïs servie avec légumes, viande ou poisson en sauce.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>2 tasses de farine de maïs</li>
+                <li>4 tasses d’eau</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Faire bouillir l’eau.</li>
+                <li>Ajouter la farine progressivement en remuant.</li>
+                <li>Mélanger jusqu’à obtenir une pâte épaisse.</li>
+                <li>Laisser cuire encore 5 minutes.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> 15 minutes</p>
+        </div>
+    </section>
+
+    <!-- RECETTE 2 -->
+    <section class="recette">
+        <h2>🐟 Kapenta frit</h2>
+        <img src="image/Kapenta frit.jpg" alt="Kapenta frit" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Petits poissons séchés puis frits, servis avec Nshima et légumes.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>200 g de kapenta séché</li>
+                <li>Huile</li>
+                <li>1 oignon</li>
+                <li>1 tomate</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Rincer rapidement les kapenta.</li>
+                <li>Frire jusqu’à croustillants.</li>
+                <li>Ajouter oignon et tomate et faire revenir.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> 20 minutes</p>
+        </div>
+    </section>
+
+    <!-- RECETTE 3 -->
+    <section class="recette">
+        <h2>🥬 Chibwabwa</h2>
+        <img src="image/Chibwabwa.jpg" alt="Chibwabwa légumes" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Feuilles de citrouille cuisinées avec tomate, oignon et parfois pâte d’arachide.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>Feuilles de citrouille ou épinards</li>
+                <li>1 tomate</li>
+                <li>1 oignon</li>
+                <li>2 cuillères de pâte d’arachide</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Faire revenir l’oignon.</li>
+                <li>Ajouter la tomate et les feuilles.</li>
+                <li>Incorporer la pâte d’arachide et cuire 10 min.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> 25 minutes</p>
+        </div>
+    </section>
+
+    <!-- RECETTE 4 -->
+    <section class="recette">
+        <h2>🍗 Poulet à la sauce d’arachide</h2>
+        <img src="image/Poulet à la sauce d’arachide.jpg" alt="Poulet sauce arachide" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Poulet mijoté dans une sauce onctueuse à base d’arachide, très populaire en Afrique australe.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>1 poulet découpé</li>
+                <li>3 cuillères de pâte d’arachide</li>
+                <li>1 tomate</li>
+                <li>1 oignon</li>
+                <li>Ail, sel</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Faire revenir oignon et ail.</li>
+                <li>Ajouter le poulet et dorer.</li>
+                <li>Incorporer tomate et pâte d’arachide diluée.</li>
+                <li>Laisser mijoter 30 minutes.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> 45 minutes</p>
+        </div>
+    </section>
+
+    <!-- RECETTE 5 -->
+    <section class="recette">
+        <h2>🍩 Vitumbuwa</h2>
+        <img src="image/Vitumbuwa.jpg" alt="Vitumbuwa beignets" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Beignets sucrés croustillants à l’extérieur et moelleux à l’intérieur, très appréciés au petit-déjeuner.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>2 tasses de farine</li>
+                <li>Sucre</li>
+                <li>Levure</li>
+                <li>Eau tiède</li>
+                <li>Huile pour friture</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Mélanger farine, sucre et levure avec de l’eau.</li>
+                <li>Laisser lever 1 heure.</li>
+                <li>Frire des boules de pâte.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> 1h30</p>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Restaurant Africain Virtuel</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

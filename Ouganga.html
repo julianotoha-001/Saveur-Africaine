@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurant Africain Virtuel - Ouganda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🍽️ Restaurant Africain Virtuel</h1>
+    <h2>Spécialités de l’Ouganda 🇺🇬</h2>
+    <a href="menu.html" class="bouton-retour">⬅ Retour au menu</a>
+</header>
+
+<main>
+
+    <!-- RECETTE 1 -->
+    <section class="recette">
+        <h2>🍌 Matoke</h2>
+        <img src="image/matoke.jpg" alt="Matoke" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Plat traditionnel ougandais à base de bananes plantain vertes cuites à la vapeur puis mijotées avec légumes et parfois de la viande.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>Bananes plantain vertes</li>
+                <li>Oignon</li>
+                <li>Tomates</li>
+                <li>Ail</li>
+                <li>Bouillon</li>
+                <li>Huile, sel, poivre</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Éplucher et couper les plantains.</li>
+                <li>Cuire à la vapeur 15 minutes.</li>
+                <li>Faire revenir oignon, ail et tomates.</li>
+                <li>Ajouter plantains et bouillon puis mijoter.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> 35 minutes</p>
+        </div>
+    </section>
+
+    <!-- RECETTE 2 -->
+    <section class="recette">
+        <h2>🥩 Luwombo</h2>
+        <img src="image/luwombo.jpg" alt="Luwombo" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Plat royal cuit à la vapeur dans des feuilles de bananier avec viande, légumes et sauce aux arachides.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>Poulet ou bœuf</li>
+                <li>Oignon</li>
+                <li>Tomate</li>
+                <li>Pâte d’arachide</li>
+                <li>Épices</li>
+                <li>Feuilles de bananier</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Mélanger viande, légumes et pâte d’arachide.</li>
+                <li>Envelopper dans des feuilles de bananier.</li>
+                <li>Cuire à la vapeur environ 1 heure.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> 1h15</p>
+        </div>
+    </section>
+
+    <!-- RECETTE 3 -->
+    <section class="recette">
+        <h2>🌽 Posho</h2>
+        <img src="image/posho.jpg" alt="Posho" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Pâte de maïs semblable à l’Ugali, servie avec haricots, légumes ou viande en sauce.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>Farine de maïs</li>
+                <li>Eau</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Faire bouillir l’eau.</li>
+                <li>Ajouter la farine progressivement.</li>
+                <li>Mélanger jusqu’à épaississement.</li>
+                <li>Cuire en remuant quelques minutes.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> 15 minutes</p>
+        </div>
+    </section>
+
+    <!-- RECETTE 4 -->
+    <section class="recette">
+        <h2>🐟 Poisson en sauce arachide</h2>
+        <img src="image/poissonsauced’arachide.jpg" alt="Poisson sauce arachide" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Poisson mijoté dans une sauce onctueuse aux arachides, très apprécié près du lac Victoria.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>Filets de poisson</li>
+                <li>Pâte d’arachide</li>
+                <li>Tomate</li>
+                <li>Oignon</li>
+                <li>Eau</li>
+                <li>Ail, sel</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Faire revenir oignon et tomate.</li>
+                <li>Ajouter eau et pâte d’arachide.</li>
+                <li>Ajouter le poisson et cuire 15 minutes.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> 30 minutes</p>
+        </div>
+    </section>
+
+    <!-- RECETTE 5 -->
+    <section class="recette">
+        <h2>🍞 Chapati ougandais</h2>
+        <img src="image/Chapatiougandais.jpg" alt="Chapati ougandais" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Pain plat très populaire en Ouganda, servi en accompagnement ou garni comme sandwich.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>Farine</li>
+                <li>Eau</li>
+                <li>Huile</li>
+                <li>Sel</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Mélanger les ingrédients pour former une pâte.</li>
+                <li>Laisser reposer 20 minutes.</li>
+                <li>Étaler et cuire à la poêle.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> 40 minutes</p>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Restaurant Africain Virtuel</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurant Africain Virtuel - RDC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🍽️ Restaurant Africain Virtuel</h1>
+    <h2>Spécialités de la RDC 🇨🇩</h2>
+    <a href="menu.html" class="bouton-retour">⬅ Retour au menu</a>
+</header>
+
+<main>
+
+    <!-- RECETTE 1 -->
+    <section class="recette">
+        <h2>🍗 Poulet Moambé</h2>
+        <img src="image/Poulet Moambé.jpg" alt="Poulet Moambé" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Plat emblématique de la RDC, le poulet moambé est mijoté dans une sauce onctueuse à base de pâte d’arachide et d’huile de palme.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>1 poulet découpé</li>
+                <li>3 cuillères de pâte d’arachide</li>
+                <li>2 tomates</li>
+                <li>1 oignon</li>
+                <li>Huile de palme</li>
+                <li>Ail, piment, sel</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Faire revenir le poulet dans l’huile de palme.</li>
+                <li>Ajouter oignon, ail et tomates.</li>
+                <li>Diluer la pâte d’arachide avec un peu d’eau chaude et verser dans la sauce.</li>
+                <li>Laisser mijoter 40 minutes.</li>
+                <li>Servir avec du riz ou du foufou.</li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- RECETTE 2 -->
+    <section class="recette">
+        <h2>🍃 Saka-Saka</h2>
+        <img src="image/Saka-Saka.jpg" alt="Saka-Saka" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Feuilles de manioc pilées cuites longuement avec huile de palme, aubergines et parfois poisson fumé.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>Feuilles de manioc pilées</li>
+                <li>1 aubergine</li>
+                <li>Huile de palme</li>
+                <li>Poisson fumé (optionnel)</li>
+                <li>Oignon, ail</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Cuire les feuilles dans l’eau.</li>
+                <li>Ajouter oignon, aubergine et huile.</li>
+                <li>Incorporer le poisson fumé.</li>
+                <li>Laisser mijoter 45 minutes.</li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- RECETTE 3 -->
+    <section class="recette">
+        <h2>🍌 Lituma</h2>
+        <img src="image/Lituma.jpg" alt="Lituma" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Pâte de banane plantain pilée, souvent servie avec une sauce tomate épicée ou du ragoût de viande.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>5 bananes plantain vertes</li>
+                <li>Eau</li>
+                <li>Sel</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Faire bouillir les bananes épluchées.</li>
+                <li>Les piler jusqu’à obtenir une pâte lisse.</li>
+                <li>Former des boules et servir chaud.</li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- RECETTE 4 -->
+    <section class="recette">
+        <h2>🐟 Liboke de Poisson</h2>
+        <img src="image/Liboke de Poisson.jpg" alt="Liboke de poisson" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Poisson mariné aux épices, enveloppé dans des feuilles de bananier puis cuit à la vapeur ou au feu de bois.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>2 poissons entiers</li>
+                <li>Tomates, oignon</li>
+                <li>Ail, citron</li>
+                <li>Piment</li>
+                <li>Feuilles de bananier</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Assaisonner le poisson avec légumes et épices.</li>
+                <li>Envelopper dans des feuilles.</li>
+                <li>Cuire à la vapeur 25 minutes.</li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- RECETTE 5 -->
+    <section class="recette">
+        <h2>🍩 Mikate</h2>
+        <img src="image/Mikate.jpg" alt="Mikate" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Beignets sucrés très populaires en RDC, croustillants à l’extérieur et moelleux à l’intérieur.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>2 tasses de farine</li>
+                <li>1/2 tasse de sucre</li>
+                <li>Levure boulangère</li>
+                <li>Eau tiède</li>
+                <li>Huile de friture</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Mélanger farine, sucre et levure.</li>
+                <li>Ajouter l’eau pour former une pâte.</li>
+                <li>Laisser lever 1 heure.</li>
+                <li>Frire en petites boules.</li>
+            </ol>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Restaurant Africain Virtuel</p>
+</footer>
+
+<!-- SCRIPT INTERACTIF IDENTIQUE -->
+<script src="script.js"></script>
+
+</body>
+</html>

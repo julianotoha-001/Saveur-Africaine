@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurant Africain Virtuel - Cameroun</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🍽️ Restaurant Africain Virtuel</h1>
+    <h2>Spécialités du Cameroun 🇨🇲</h2>
+    <a href="menu.html" class="bouton-retour">⬅ Retour au menu</a>
+</header>
+
+<main>
+
+<!-- RECETTE 1 -->
+<section class="recette">
+    <h2>🥜 Ndolé</h2>
+    <img src="image/ndole.jpg" alt="Ndolé camerounais" class="recipe-img">
+    <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+    <div class="recette-details">
+        <h3>Description</h3>
+        <p>Plat national du Cameroun préparé avec des feuilles amères, de la pâte d’arachide et de la viande ou des crevettes.</p>
+
+        <h3>Ingrédients (4 personnes)</h3>
+        <ul>
+            <li>500 g de feuilles de ndolé</li>
+            <li>200 g de pâte d’arachide</li>
+            <li>300 g de viande ou crevettes</li>
+            <li>1 oignon</li>
+            <li>Huile, sel, piment</li>
+        </ul>
+
+        <h3>Préparation</h3>
+        <ol>
+            <li>Bouillir les feuilles pour enlever l’amertume.</li>
+            <li>Cuire la viande à part.</li>
+            <li>Faire revenir l’oignon dans l’huile.</li>
+            <li>Ajouter la pâte d’arachide diluée.</li>
+            <li>Incorporer les feuilles et la viande puis mijoter 20 min.</li>
+        </ol>
+    </div>
+</section>
+
+<!-- RECETTE 2 -->
+<section class="recette">
+    <h2>🍌 Plantain Frit</h2>
+    <img src="image/plantain-frit.jpg" alt="Plantain frit" class="recipe-img">
+    <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+    <div class="recette-details">
+        <h3>Description</h3>
+        <p>Bananes plantain mûres frites, servies en accompagnement de nombreux plats camerounais.</p>
+
+        <h3>Ingrédients</h3>
+        <ul>
+            <li>3 plantains mûrs</li>
+            <li>Huile de friture</li>
+            <li>Sel</li>
+        </ul>
+
+        <h3>Préparation</h3>
+        <ol>
+            <li>Éplucher les plantains.</li>
+            <li>Couper en rondelles.</li>
+            <li>Faire frire jusqu’à ce qu’ils soient dorés.</li>
+            <li>Égoutter et saler légèrement.</li>
+        </ol>
+    </div>
+</section>
+
+<!-- RECETTE 3 -->
+<section class="recette">
+    <h2>🥬 Eru</h2>
+    <img src="image/eru.jpg" alt="Eru camerounais" class="recipe-img">
+    <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+    <div class="recette-details">
+        <h3>Description</h3>
+        <p>Ragoût épais à base de feuilles d’eru, viande et huile de palme, très apprécié dans l’ouest du Cameroun.</p>
+
+        <h3>Ingrédients</h3>
+        <ul>
+            <li>Feuilles d’eru</li>
+            <li>Viande ou poisson fumé</li>
+            <li>Huile de palme</li>
+            <li>Écrevisses moulues</li>
+        </ul>
+
+        <h3>Préparation</h3>
+        <ol>
+            <li>Cuire la viande avec les épices.</li>
+            <li>Ajouter l’huile de palme.</li>
+            <li>Incorporer les feuilles d’eru.</li>
+            <li>Laisser mijoter jusqu’à épaississement.</li>
+        </ol>
+    </div>
+</section>
+
+<!-- RECETTE 4 -->
+<section class="recette">
+    <h2>🥘 Koki</h2>
+    <img src="image/koki.jpg" alt="Koki camerounais" class="recipe-img">
+    <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+    <div class="recette-details">
+        <h3>Description</h3>
+        <p>Gâteau de haricots écrasés mélangés à l’huile de palme et cuits à la vapeur.</p>
+
+        <h3>Ingrédients</h3>
+        <ul>
+            <li>Haricots blancs trempés</li>
+            <li>Huile de palme</li>
+            <li>Piment, sel</li>
+        </ul>
+
+        <h3>Préparation</h3>
+        <ol>
+            <li>Moudre les haricots.</li>
+            <li>Mélanger avec huile et épices.</li>
+            <li>Verser dans des feuilles ou moules.</li>
+            <li>Cuire à la vapeur 1 heure.</li>
+        </ol>
+    </div>
+</section>
+
+<!-- RECETTE 5 -->
+<section class="recette">
+    <h2>🐟 Poisson Braisé</h2>
+    <img src="image/poisson-braise.jpg" alt="Poisson braisé camerounais" class="recipe-img">
+    <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+    <div class="recette-details">
+        <h3>Description</h3>
+        <p>Poisson mariné aux épices puis grillé au feu de bois, très populaire dans les rues camerounaises.</p>
+
+        <h3>Ingrédients</h3>
+        <ul>
+            <li>1 poisson entier</li>
+            <li>Ail, gingembre</li>
+            <li>Piment, citron</li>
+            <li>Huile, sel</li>
+        </ul>
+
+        <h3>Préparation</h3>
+        <ol>
+            <li>Mixer les épices avec un peu d’huile.</li>
+            <li>Badigeonner le poisson.</li>
+            <li>Laisser mariner 30 min.</li>
+            <li>Griller 20 minutes en retournant.</li>
+        </ol>
+    </div>
+</section>
+
+</main>
+
+<footer>
+    <p>© 2026 Restaurant Africain Virtuel</p>
+</footer>
+
+<!-- SCRIPT POUR OUVRIR UNE SEULE RECETTE -->
+<script src="script.js"></script>
+
+</body>
+</html>

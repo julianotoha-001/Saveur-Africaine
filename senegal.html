@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurant Africain Virtuel - Sénégal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🍽️ Restaurant Africain Virtuel</h1>
+    <h2>Spécialités du Sénégal 🇸🇳</h2>
+    <a href="menu.html" class="bouton-retour">⬅ Retour au menu</a>
+</header>
+
+<main>
+
+    <!-- RECETTE 1 -->
+    <section class="recette">
+        <h2>🍗 Poulet Yassa</h2>
+        <img src="image/yassa.jpeg" alt="Poulet Yassa sénégalais" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Plat emblématique du Sénégal, le poulet Yassa est mariné dans du citron et des oignons puis mijoté pour obtenir une sauce savoureuse et légèrement acidulée.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>1 poulet découpé</li>
+                <li>4 gros oignons</li>
+                <li>3 citrons</li>
+                <li>2 c. à soupe de moutarde</li>
+                <li>2 gousses d’ail</li>
+                <li>Huile, sel, poivre</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Mariner le poulet avec jus de citron, moutarde, ail, sel et poivre pendant 2h minimum.</li>
+                <li>Faire revenir les oignons émincés jusqu’à ce qu’ils deviennent fondants.</li>
+                <li>Dorer le poulet dans une autre poêle.</li>
+                <li>Mélanger le tout et laisser mijoter 30 minutes.</li>
+                <li>Servir chaud avec du riz blanc.</li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- RECETTE 2 -->
+    <section class="recette">
+        <h2>🍚 Thiéboudienne</h2>
+        <img src="image/Thiéboudienne.jpeg" alt="Thiéboudienne" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Le thiéboudienne est le plat national sénégalais. Il associe du riz parfumé, du poisson farci et des légumes mijotés dans une sauce tomate épicée.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>Poisson entier</li>
+                <li>Riz</li>
+                <li>Tomate concentrée</li>
+                <li>Carottes, chou, manioc</li>
+                <li>Ail, oignon, piment</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Farcir le poisson avec des herbes.</li>
+                <li>Cuire le poisson dans la sauce tomate épicée.</li>
+                <li>Ajouter les légumes et laisser mijoter.</li>
+                <li>Retirer le tout puis cuire le riz dans la sauce restante.</li>
+                <li>Servir le riz avec poisson et légumes.</li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- RECETTE 3 -->
+    <section class="recette">
+        <h2>🥩 Mafé</h2>
+        <img src="image/Mafé.jpeg" alt="Mafé sénégalais" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Le mafé est un ragoût riche à base de pâte d’arachide, de viande et de légumes. Il est onctueux et très nourrissant.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>Bœuf ou poulet</li>
+                <li>Pâte d’arachide</li>
+                <li>Tomates</li>
+                <li>Carottes, pommes de terre</li>
+                <li>Oignon, ail</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Faire revenir la viande avec l’oignon.</li>
+                <li>Ajouter les tomates mixées.</li>
+                <li>Incorporer la pâte d’arachide avec un peu d’eau.</li>
+                <li>Ajouter les légumes et laisser mijoter 45 min.</li>
+                <li>Servir avec du riz blanc.</li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- RECETTE 4 -->
+    <section class="recette">
+        <h2>🐟 Yassa Poisson</h2>
+        <img src="image/yassa poisson.jpeg" alt="Yassa Poisson" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Variante du Yassa au poisson, mariné au citron avec beaucoup d’oignons fondants et une sauce légèrement acidulée.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>Poisson entier</li>
+                <li>Oignons</li>
+                <li>Citrons</li>
+                <li>Moutarde</li>
+                <li>Huile, sel, poivre</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Mariner le poisson avec citron et moutarde.</li>
+                <li>Faire revenir les oignons jusqu’à ce qu’ils caramélisent légèrement.</li>
+                <li>Griller légèrement le poisson.</li>
+                <li>Mélanger et laisser mijoter 25 minutes.</li>
+                <li>Servir avec du riz.</li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- RECETTE 5 -->
+    <section class="recette">
+        <h2>🥣 Soupe Kandia</h2>
+        <img src="image/Soupe Kandia.jpeg" alt="Soupe Kandia" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Soupe épaisse au gombo et huile de palme, très parfumée et servie traditionnellement avec du riz blanc.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>Viande ou poisson</li>
+                <li>Gombo frais</li>
+                <li>Huile de palme</li>
+                <li>Tomates</li>
+                <li>Piment, oignon</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Faire revenir la viande.</li>
+                <li>Ajouter tomates et gombo coupé.</li>
+                <li>Verser l’huile de palme et de l’eau.</li>
+                <li>Laisser mijoter 40 minutes.</li>
+                <li>Servir chaud avec du riz.</li>
+            </ol>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Restaurant Africain Virtuel</p>
+</footer>
+
+<!-- SCRIPT INTERACTIF -->
+<script src="script.js"></script>
+
+</body>
+</html>

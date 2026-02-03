@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurant Africain Virtuel - Angola</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🍽️ Restaurant Africain Virtuel</h1>
+    <h2>Spécialités de l’Angola 🇦🇴</h2>
+    <a href="menu.html" class="bouton-retour">⬅ Retour au menu</a>
+</header>
+
+<main>
+
+    <!-- RECETTE 1 -->
+    <section class="recette">
+        <h2>🍗 Muamba de Galinha</h2>
+        <img src="image/Muambade Galinha.jpg" alt="Muamba de Galinha" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Plat national angolais : poulet mijoté avec huile de palme, gombo et épices.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>Poulet découpé</li>
+                <li>Huile de palme</li>
+                <li>Oignon</li>
+                <li>Tomates</li>
+                <li>Gombo</li>
+                <li>Ail, piment, sel</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Faire revenir le poulet dans l’huile de palme.</li>
+                <li>Ajouter oignon, ail et tomates.</li>
+                <li>Incorporer le gombo et les épices.</li>
+                <li>Laisser mijoter environ 40 minutes.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> 1 heure</p>
+        </div>
+    </section>
+
+    <!-- RECETTE 2 -->
+    <section class="recette">
+        <h2>🍛 Calulu</h2>
+        <img src="image/calulu.jpg" alt="Calulu" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Ragoût traditionnel à base de poisson séché ou frais, légumes-feuilles et huile de palme.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>Poisson séché ou frais</li>
+                <li>Feuilles vertes</li>
+                <li>Oignon</li>
+                <li>Tomates</li>
+                <li>Huile de palme, ail</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Faire revenir oignon et ail.</li>
+                <li>Ajouter tomates et poisson.</li>
+                <li>Incorporer les feuilles vertes.</li>
+                <li>Laisser mijoter 30 minutes.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> 45 minutes</p>
+        </div>
+    </section>
+
+    <!-- RECETTE 3 -->
+    <section class="recette">
+        <h2>🍚 Funje</h2>
+        <img src="image/funje.jpg" alt="Funje" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Pâte épaisse de farine de manioc ou maïs servie avec sauces et ragoûts.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>Farine de manioc ou maïs</li>
+                <li>Eau</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Faire bouillir l’eau.</li>
+                <li>Ajouter la farine progressivement.</li>
+                <li>Mélanger jusqu’à texture lisse et épaisse.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> 20 minutes</p>
+        </div>
+    </section>
+
+    <!-- RECETTE 4 -->
+    <section class="recette">
+        <h2>🐟 Moamba de Peixe</h2>
+        <img src="image/Moamba de Peixe.jpg" alt="Moamba de Peixe" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Version au poisson du célèbre ragoût angolais à l’huile de palme.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>Poisson frais</li>
+                <li>Huile de palme</li>
+                <li>Oignon</li>
+                <li>Tomates, ail, piment</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Faire revenir oignon et ail.</li>
+                <li>Ajouter tomates et huile de palme.</li>
+                <li>Ajouter le poisson et mijoter 25 minutes.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> 40 minutes</p>
+        </div>
+    </section>
+
+    <!-- RECETTE 5 -->
+    <section class="recette">
+        <h2>🍌 Banane frite</h2>
+        <img src="image/Banane frite.jpg" alt="Banane frite" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Banane plantain mûre frite, servie en accompagnement ou dessert.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>Bananes plantain mûres</li>
+                <li>Huile pour friture</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Éplucher et couper les bananes.</li>
+                <li>Frire jusqu’à dorées.</li>
+                <li>Égoutter et servir chaud.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> 15 minutes</p>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Restaurant Africain Virtuel</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurant Africain Virtuel - Mozambique</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🍽️ Restaurant Africain Virtuel</h1>
+    <h2>Spécialités du Mozambique 🇲🇿</h2>
+    <a href="menu.html" class="bouton-retour">⬅ Retour au menu</a>
+</header>
+
+<main>
+
+    <!-- RECETTE 1 -->
+    <section class="recette">
+        <h2>🍤 Crevettes Piri-Piri</h2>
+        <img src="image/Crevettespiri-piri.jpg" alt="Crevettes piri-piri" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Crevettes grillées dans une sauce relevée au piment piri-piri, ail et citron. Un grand classique mozambicain.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>500 g de crevettes</li>
+                <li>2 piments piri-piri</li>
+                <li>2 gousses d’ail</li>
+                <li>Jus de citron</li>
+                <li>Huile d’olive</li>
+                <li>Sel</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Mixer piments, ail, citron et huile.</li>
+                <li>Mariner les crevettes 30 minutes.</li>
+                <li>Griller 5 minutes de chaque côté.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> 20 minutes</p>
+        </div>
+    </section>
+
+    <!-- RECETTE 2 -->
+    <section class="recette">
+        <h2>🍗 Frango à Zambeziana</h2>
+        <img src="image/Frango à Zambeziana.jpg" alt="Poulet zambeziana" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Poulet mariné au lait de coco, citron et piment, puis grillé pour une saveur douce et épicée.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>1 poulet entier</li>
+                <li>Lait de coco</li>
+                <li>Jus de citron</li>
+                <li>Piment</li>
+                <li>Ail</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Mélanger coco, citron, ail et piment.</li>
+                <li>Mariner le poulet 2 heures.</li>
+                <li>Griller 45 minutes.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> 2h45</p>
+        </div>
+    </section>
+
+    <!-- RECETTE 3 -->
+    <section class="recette">
+        <h2>🥜 Matapa</h2>
+        <img src="image/Matapa.jpg" alt="Matapa feuilles de manioc" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Feuilles de manioc pilées cuites avec lait de coco et pâte d’arachide, plat traditionnel très nourrissant.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>Feuilles de manioc ou épinards</li>
+                <li>1 tasse de lait de coco</li>
+                <li>2 cuillères de pâte d’arachide</li>
+                <li>Ail</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Hacher finement les feuilles.</li>
+                <li>Cuire avec ail, coco et arachide 20 minutes.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> 30 minutes</p>
+        </div>
+    </section>
+
+    <!-- RECETTE 4 -->
+    <section class="recette">
+        <h2>🐟 Poisson grillé à la mozambicaine</h2>
+        <img src="image/Poisson grillé à la mozambicaine.jpg" alt="Poisson grillé" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Poisson grillé avec citron, ail et piment, servi avec du riz ou du xima (pâte de maïs).</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>1 poisson entier</li>
+                <li>Citron</li>
+                <li>Ail</li>
+                <li>Piment</li>
+                <li>Sel</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Assaisonner le poisson.</li>
+                <li>Griller 20 minutes en retournant à mi-cuisson.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> 25 minutes</p>
+        </div>
+    </section>
+
+    <!-- RECETTE 5 -->
+    <section class="recette">
+        <h2>🍰 Bolo Polana</h2>
+        <img src="image/Bolo Polana.jpg" alt="Bolo Polana" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Gâteau traditionnel à base de noix de cajou moulues et de pommes de terre, hérité de l’influence portugaise.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>Noix de cajou moulues</li>
+                <li>Pommes de terre écrasées</li>
+                <li>Sucre</li>
+                <li>Œufs</li>
+                <li>Beurre</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Mélanger tous les ingrédients.</li>
+                <li>Verser dans un moule.</li>
+                <li>Cuire 40 minutes à 180°C.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> 1 heure</p>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Restaurant Africain Virtuel</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

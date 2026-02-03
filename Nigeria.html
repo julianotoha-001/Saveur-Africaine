@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurant Africain Virtuel - Nigéria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🍽️ Restaurant Africain Virtuel</h1>
+    <h2>Spécialités du Nigéria 🇳🇬</h2>
+    <a href="menu.html" class="bouton-retour">⬅ Retour au menu</a>
+</header>
+
+<main>
+
+    <!-- RECETTE 1 -->
+    <section class="recette">
+        <h2>🍚 Jollof Rice</h2>
+        <img src="image/Jollofrice.jpg" alt="Jollof Rice" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Plat emblématique d’Afrique de l’Ouest, le Jollof Rice est un riz parfumé cuit dans une sauce tomate épicée avec légumes et viande ou poulet.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>3 tasses de riz</li>
+                <li>4 tomates</li>
+                <li>2 poivrons rouges</li>
+                <li>1 oignon</li>
+                <li>Concentré de tomate</li>
+                <li>Poulet ou bœuf</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Mixer tomates, poivrons et oignon.</li>
+                <li>Faire revenir avec le concentré.</li>
+                <li>Ajouter la viande précuite.</li>
+                <li>Verser le riz lavé et couvrir d’eau.</li>
+                <li>Laisser cuire jusqu’à absorption complète.</li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- RECETTE 2 -->
+    <section class="recette">
+        <h2>🥣 Egusi Soup</h2>
+        <img src="image/Egusi soup.jpg" alt="Egusi Soup" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Soupe épaisse à base de graines de melon moulues, très nourrissante et servie avec du fufu.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>Graines d’egusi moulues</li>
+                <li>Viande ou poisson fumé</li>
+                <li>Légumes verts</li>
+                <li>Huile de palme</li>
+                <li>Piment, oignon</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Faire chauffer l’huile de palme.</li>
+                <li>Ajouter l’oignon et la viande.</li>
+                <li>Incorporer l’egusi avec un peu d’eau.</li>
+                <li>Ajouter les légumes.</li>
+                <li>Laisser mijoter 20 minutes.</li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- RECETTE 3 -->
+    <section class="recette">
+        <h2>🍲 Ogbono Soup</h2>
+        <img src="image/Ogbono soup.jpg" alt="Ogbono Soup" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Soupe épaisse et légèrement visqueuse préparée avec des graines d’ogbono moulues et de la viande.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>Ogbono moulu</li>
+                <li>Bœuf ou chèvre</li>
+                <li>Poisson séché</li>
+                <li>Huile de palme</li>
+                <li>Légumes verts</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Cuire la viande avec les épices.</li>
+                <li>Ajouter l’huile de palme.</li>
+                <li>Incorporer l’ogbono.</li>
+                <li>Ajouter poisson et légumes.</li>
+                <li>Laisser épaissir doucement.</li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- RECETTE 4 -->
+    <section class="recette">
+        <h2>🍗 Suya</h2>
+        <img src="image/Suya.jpg" alt="Suya" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Brochettes de bœuf épicées grillées, très populaires comme street food nigériane.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>Bœuf en fines tranches</li>
+                <li>Épices suya</li>
+                <li>Sel, huile</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Mélanger la viande avec les épices.</li>
+                <li>Enfiler sur des brochettes.</li>
+                <li>Griller au barbecue ou au four.</li>
+                <li>Servir chaud avec oignons crus.</li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- RECETTE 5 -->
+    <section class="recette">
+        <h2>🍌 Fried Plantains</h2>
+        <img src="image/plantain frit.jpeg" alt="Fried Plantains" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Bananes plantain mûres frites, accompagnement classique des plats nigérians.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>Bananes plantain mûres</li>
+                <li>Huile de friture</li>
+                <li>Sel</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Éplucher et couper les plantains.</li>
+                <li>Chauffer l’huile.</li>
+                <li>Frire jusqu’à coloration dorée.</li>
+                <li>Égoutter et saler légèrement.</li>
+            </ol>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Restaurant Africain Virtuel</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

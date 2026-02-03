@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurant Africain Virtuel - Rwanda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🍽️ Restaurant Africain Virtuel</h1>
+    <h2>Spécialités du Rwanda 🇷🇼</h2>
+    <a href="menu.html" class="bouton-retour">⬅ Retour au menu</a>
+</header>
+
+<main>
+
+    <!-- RECETTE 1 -->
+    <section class="recette">
+        <h2>🍌 Matoke</h2>
+        <img src="image/matoke.jpg" alt="Matoke" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Plat d’Afrique de l’Est à base de bananes plantain vertes mijotées avec légumes et parfois de la viande.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>6 bananes plantain vertes</li>
+                <li>2 tomates</li>
+                <li>1 oignon</li>
+                <li>2 carottes</li>
+                <li>200 g de viande (optionnel)</li>
+                <li>Ail, sel, huile</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Éplucher et couper les bananes.</li>
+                <li>Faire revenir l’oignon et l’ail.</li>
+                <li>Ajouter tomates, carottes et viande.</li>
+                <li>Incorporer les bananes et un peu d’eau.</li>
+                <li>Laisser mijoter 30 minutes.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> 45 minutes</p>
+        </div>
+    </section>
+
+    <!-- RECETTE 2 -->
+    <section class="recette">
+        <h2>🍛 Isombe</h2>
+        <img src="image/isombe.jpg" alt="Isombe" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Purée de feuilles de manioc cuite avec aubergines, épinards et parfois du poisson séché.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>Feuilles de manioc pilées</li>
+                <li>1 aubergine</li>
+                <li>Épinards</li>
+                <li>Huile de palme</li>
+                <li>Poisson séché (optionnel)</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Cuire les feuilles de manioc.</li>
+                <li>Ajouter les légumes coupés.</li>
+                <li>Incorporer l’huile et le poisson.</li>
+                <li>Laisser mijoter 40 minutes.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> 1 heure</p>
+        </div>
+    </section>
+
+    <!-- RECETTE 3 -->
+    <section class="recette">
+        <h2>🍠 Ibihaza</h2>
+        <img src="image/ibihaza.jpg" alt="Ibihaza" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Plat sucré-salé à base de citrouille cuite avec haricots et maïs.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>1 petite citrouille</li>
+                <li>1 tasse de haricots</li>
+                <li>1 tasse de maïs</li>
+                <li>Sel</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Cuire les haricots séparément.</li>
+                <li>Faire cuire la citrouille en morceaux.</li>
+                <li>Mélanger avec le maïs et les haricots.</li>
+                <li>Laisser mijoter 15 minutes.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> 50 minutes</p>
+        </div>
+    </section>
+
+    <!-- RECETTE 4 -->
+    <section class="recette">
+        <h2>🥔 Ibirayi</h2>
+        <img src="image/ibirayi.jpg" alt="Ibirayi" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Pommes de terre sautées avec oignons et épices, très consommées dans les régions montagneuses.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>5 pommes de terre</li>
+                <li>1 oignon</li>
+                <li>Huile, sel, poivre</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Couper les pommes de terre.</li>
+                <li>Faire revenir avec les oignons.</li>
+                <li>Cuire jusqu’à dorure.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> 30 minutes</p>
+        </div>
+    </section>
+
+    <!-- RECETTE 5 -->
+    <section class="recette">
+        <h2>🥩 Akabenz</h2>
+        <img src="image/akabenz.jpg" alt="Akabenz" class="recipe-img">
+        <button class="btn-toggle" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Porc grillé très populaire au Rwanda, souvent servi avec bananes ou frites.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>500 g de porc</li>
+                <li>Ail, gingembre</li>
+                <li>Sel, poivre</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Assaisonner le porc.</li>
+                <li>Griller jusqu’à cuisson complète.</li>
+                <li>Servir chaud avec accompagnement.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> 40 minutes</p>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Restaurant Africain Virtuel</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

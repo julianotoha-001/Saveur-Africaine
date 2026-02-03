@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurant Africain Virtuel - Maroc</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🍽️ Restaurant Africain Virtuel</h1>
+    <h2>Spécialités du Maroc 🇲🇦</h2>
+    <a href="menu.html" class="bouton-retour">⬅ Retour au menu</a>
+</header>
+
+<main class="recettes-container">
+
+    <!-- RECETTE 1 -->
+    <section class="recette">
+        <h2>🍗 Tajine de Poulet au Citron Confit</h2>
+        <img src="image/Tajine poulet au citron.jpg" alt="Tajine de poulet">
+
+        <button class="btn-recette" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Plat emblématique marocain mijoté lentement avec des épices, des olives et du citron confit.</p>
+
+            <h3>Ingrédients (4 personnes)</h3>
+            <ul>
+                <li>1 poulet découpé</li>
+                <li>2 oignons émincés</li>
+                <li>2 citrons confits</li>
+                <li>100 g d’olives vertes</li>
+                <li>1 c. à café de gingembre</li>
+                <li>1 c. à café de curcuma</li>
+                <li>Huile d’olive, sel, poivre</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Faire revenir les oignons dans l’huile d’olive.</li>
+                <li>Ajouter le poulet et les épices.</li>
+                <li>Incorporer un peu d’eau et couvrir.</li>
+                <li>Laisser mijoter 40 minutes.</li>
+                <li>Ajouter olives et citron confit en fin de cuisson.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> Préparation 15 min — Cuisson 45 min</p>
+        </div>
+    </section>
+
+    <!-- RECETTE 2 -->
+    <section class="recette">
+        <h2>🥩 Tajine d’Agneau aux Pruneaux</h2>
+        <img src="image/Tajine d’agneaupruneaux.jpg" alt="Tajine agneau pruneaux">
+        <button class="btn-recette" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Délicieux mélange sucré-salé d’agneau tendre mijoté avec pruneaux et amandes.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>800 g d’agneau</li>
+                <li>200 g de pruneaux</li>
+                <li>1 oignon</li>
+                <li>1 c. à soupe de miel</li>
+                <li>Cannelle, gingembre</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Faire dorer la viande.</li>
+                <li>Ajouter épices et oignon.</li>
+                <li>Couvrir d’eau et mijoter 1h.</li>
+                <li>Ajouter pruneaux et miel.</li>
+                <li>Laisser épaissir la sauce.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> Préparation 20 min — Cuisson 1h15</p>
+        </div>
+    </section>
+
+    <!-- RECETTE 3 -->
+    <section class="recette">
+        <h2>🥣 Harira</h2>
+        <img src="image/Harira.jpg" alt="Harira">
+        <button class="btn-recette" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Soupe traditionnelle marocaine à base de tomates, lentilles et pois chiches.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>Tomates</li>
+                <li>Lentilles</li>
+                <li>Pois chiches</li>
+                <li>Coriandre, céleri</li>
+                <li>Viande (optionnel)</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Faire revenir viande et oignon.</li>
+                <li>Ajouter tomates mixées.</li>
+                <li>Incorporer lentilles et pois chiches.</li>
+                <li>Laisser mijoter 40 min.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> Préparation 15 min — Cuisson 45 min</p>
+        </div>
+    </section>
+
+    <!-- RECETTE 4 -->
+    <section class="recette">
+        <h2>🍞 Msemen</h2>
+        <img src="image/msemen.jpg" alt="Msemen">
+        <button class="btn-recette" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Crêpe feuilletée marocaine servie au petit-déjeuner avec du miel ou du fromage.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>Farine</li>
+                <li>Semoule fine</li>
+                <li>Eau</li>
+                <li>Huile</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Mélanger farine et semoule.</li>
+                <li>Ajouter eau pour former une pâte.</li>
+                <li>Former des carrés pliés.</li>
+                <li>Cuire à la poêle.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> Préparation 30 min — Cuisson 10 min</p>
+        </div>
+    </section>
+
+    <!-- RECETTE 5 -->
+    <section class="recette">
+        <h2>🍢 Brochettes Kefta</h2>
+        <img src="image/Brochetteskefta.jpg" class="recipe-img" alt="Brochettes kefta">
+        <button class="btn-recette" onclick="toggleRecette(this)">Voir la recette</button>
+
+        <div class="recette-details">
+            <h3>Description</h3>
+            <p>Brochettes de viande hachée épicée grillées au barbecue.</p>
+
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>500 g de bœuf haché</li>
+                <li>Cumin, paprika</li>
+                <li>Coriandre fraîche</li>
+            </ul>
+
+            <h3>Préparation</h3>
+            <ol>
+                <li>Mélanger viande et épices.</li>
+                <li>Former des brochettes.</li>
+                <li>Griller 10 minutes.</li>
+            </ol>
+
+            <p><strong>Temps :</strong> Préparation 15 min — Cuisson 10 min</p>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Restaurant Africain Virtuel</p>
+</footer>
+
+<!-- SCRIPT POUR OUVRIR/FERMER -->
+<script src="script.js"></script>
+
+</body>
+</html>
